@@ -13,7 +13,7 @@ User=madhurbhaiya
 Type=exec
 
 # Here specify the path of the executable to run
-ExecStart=/home/madhurbhaiya/code/Daemonize-Webserver-Example/runDaemon.sh
+ExecStart=/home/madhurbhaiya/code/Daemonize-Webserver-Example/SimpleWebserver
 
 # We want our service to keep running, so restart on failure (after 5 seconds)
 Restart=on-failure

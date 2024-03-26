@@ -42,14 +42,13 @@ sudo cp simplewebserver.service /etc/systemd/system/simplewebserver.service
 go build -o SimpleWebserver
 ```
 
-- Make the bash script executable
+- Ensure that the binary is executable
 ```shell
-chmod +x runDaemon.sh
+chmod +x SimpleWebserver
 ```
 
 - Start the daemon service
 ```shell
-# Start the daemon process
 sudo systemctl start simplewebserver
 ```
 
